@@ -12,6 +12,9 @@ class TodoController < ApplicationController
         elsif todo_id=='3'
             @todo_description="homework"
             @todo_pomodoro_estimate = "80"
+         elsif todo_id=='4'
+            @todo_description="eat lunch"
+            @todo_pomodoro_estimate = "45"
         end
     end
     def index

@@ -12,11 +12,11 @@ span{ color: pink;
     
 }
 
-span.span1 { color:black;
+span.span1 { color:gold;
 }
-span.span2 { color:white;
+span.span2 { color:gold;
 }
-span.span3 { color:green;
+span.span3 { color:gold;
 }
 
 #submit { 
@@ -44,9 +44,12 @@ span.span3 { color:green;
     width: 50%;
 }
 body{
-    background-color: navy;
+    background-color: rgb(25, 95, 209);
 }
 
 span{
     color: green;
+}
+a {
+    color:silver;
 }
