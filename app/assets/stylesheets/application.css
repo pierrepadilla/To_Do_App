@@ -16,7 +16,7 @@ span.span1 { color:black;
 }
 span.span2 { color:white;
 }
-span.span3 { color:silver;
+span.span3 { color:green;
 }
 
 #submit { 
@@ -42,4 +42,11 @@ span.span3 { color:silver;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+body{
+    background-color: silver;
+}
+
+span{
+    color: green;
 }
