@@ -1,13 +1,14 @@
 <input/>
 <h3><%=params[:id]%></h3>
-<h2><%=@todo_description%></h2>
-<h2><%=@todo_pomodoro_estimate%></h2>
-<a href="#">delete</a>
-<a href="#">edit</a>
+<h2><%=@todo.pomodoro_estimate%></h2>
+<h2><%=@todo.description%></h2>
+<a href="/todo/destroy/<%=@todo.id%>">delete</a>
+<a href="/todo/edit/<%= @todo.id %>">edit</a>
 <a href="/todo/index">go back</a>
 <link rel="stylesheet" href
 body{
     background-color: azure;
 }
+
 
 

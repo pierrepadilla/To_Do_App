@@ -10,32 +10,14 @@
 
 
 <ul>
-    <li>
-        <a href="/todo/show/1">
-            <input type="checkbox"/> .
-            Eat breakfast<br> 9:00
-       </a>
-    </li> 
-    <li>
-       <a href="/todo/show/2">
-           <input type="checkbox"/> 
-           Walk<br> 10:30
-        </a>
-    </li>  
-    <li> 
-        <a href="/todo/show/3">
-             <input type="checkbox"/> 
-             Use the<strong> strong tag</strong><br> 1:00
-        </a>
-    </li>  
-    
-    <li>
-       <a href="/todo/show/4">
-       <input type="checkbox"/> 
-        eat lunch<br> 12:30
-        </a>
-    </li> 
-    </ul>
+    <% @todos.each do |todo| %>
+      <li>
+        <input type="checkbox" name=""/>
+        <a href="show/<%= todo.id %>"><%= todo.description %></a>
+        <span class="pomodoro-estimate small-pomodoro-estimate"><%= todo.pomodoro_estimate %></span>
+      </li>
+<% end %>
+    </ul> <a href="/todo/new">new</a>
        <input placeholder="name" type="text"/> 
     <br>
         <input placeholder="time" type="number"/> 
