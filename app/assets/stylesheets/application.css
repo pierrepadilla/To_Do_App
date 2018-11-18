@@ -1,6 +1,5 @@
 body{
     background-color: azure;
-
     color: white;    
 }
 html {
@@ -8,7 +7,7 @@ html {
 }
 
 span{ color: pink;
- font-weight: bold;
+font-weight: bold;
     
 }
 
